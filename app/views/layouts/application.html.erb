@@ -9,6 +9,18 @@
   </head>
 
   <body>
-    <%= yield %>
+
+    <aside id="tippytop" class="tippytop">
+      <%= yield :tippytop %>
+    </aside>
+    <header id="header" class="site-header">
+      <%= yield :header %>
+    </header>
+    <main>
+      <%= yield %>
+    </main>
+    <footer>
+      <%= yield :footer %>
+    </footer>
   </body>
 </html>
