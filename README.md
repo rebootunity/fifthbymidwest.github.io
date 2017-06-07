@@ -1,11 +1,24 @@
-# 5XMW
-Fifth By Midwest: Intersection of Education &amp; Engagement
+# README
 
-# Install
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-https://gist.github.com/jannypie/3e6aa0e77826bf1e52aa
+Things you may want to cover:
 
-  cd app/
-  bundle install
-  rake db:setup
-  rails s
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
