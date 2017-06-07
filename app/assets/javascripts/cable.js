@@ -6,8 +6,8 @@
 //= require_tree ./channels
 
 (function() {
-  this.App || (this.App = {});
+  this.FXMW || (this.FXMW = {});
 
-  App.cable = ActionCable.createConsumer();
+  FXMW.cable = ActionCable.createConsumer();
 
 }).call(this);
