@@ -1,0 +1,21 @@
+@mixin accordion-button-styles {
+  background-image: image-url('minus.png');
+  background-image: image-url('minus.svg');
+}
+
+@mixin accordion-button-unopened-styles {
+  background-image: image-url('plus.png');
+  background-image: image-url('plus.svg');
+}
+
+.usa-accordion,
+.usa-accordion-bordered {
+  > ul {
+    button {
+      @include accordion-button-styles;
+    }
+    [aria-expanded=false] {
+      @include accordion-button-unopened-styles;
+    }
+  }
+}

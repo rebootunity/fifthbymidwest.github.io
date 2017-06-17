@@ -1,0 +1,19 @@
+@mixin search-icon {
+  background-image: image-url('search.png');
+  background-image: image-url('search.svg');
+}
+
+.usa-search {
+  [type="submit"],
+  .usa-search-submit {
+    @include search-icon;
+  }
+  &.usa-search-small {
+    @include media($small-screen) {
+      [type="submit"],
+      .usa-search-submit {
+        @include search-icon;
+      }
+    }
+  }
+}
