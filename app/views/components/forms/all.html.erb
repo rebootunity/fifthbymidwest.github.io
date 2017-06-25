@@ -1,0 +1,99 @@
+<form class="usa-form">
+  <fieldset class="usa-fieldset-inputs usa-sans">
+    <legend>Text Input</legend>
+    <label for="input-type-text">Text input label</label>
+    <input id="input-type-text" name="input-type-text" type="text">
+
+    <label for="input-focus">Text input focused</label>
+    <input class="usa-input-focus" id="input-focus" name="input-focus" type="text">
+
+    <div class="usa-input-error">
+      <label class="usa-input-error-label" for="input-error">Text input error</label>
+      <span class="usa-input-error-message" id="input-error-message" role="alert">Helpful error message</span>
+      <input id="input-error" name="input-error" type="text" aria-describedby="input-error-message">
+    </div>
+
+    <label for="input-success">Text input success</label>
+    <input class="usa-input-success" id="input-success" name="input-success" type="text">
+
+    <label for="input-type-textarea">Text area label</label>
+    <textarea id="input-type-textarea" name="input-type-textarea"></textarea>
+  </fieldset>
+
+  <hr>
+
+  <fieldset class="usa-fieldset-inputs usa-sans">
+    <legend class="usa-sr-only">Checkbox Input</legend>
+    <ul class="usa-unstyled-list">
+      <li>
+        <input id="truth" type="checkbox" name="historical-figures-1" value="truth" checked>
+        <label for="truth">Sojourner Truth</label>
+      </li>
+      <li>
+        <input id="douglass" type="checkbox" name="historical-figures-1" value="douglass">
+        <label for="douglass">Frederick Douglass</label>
+      </li>
+      <li>
+        <input id="washington" type="checkbox" name="historical-figures-1" value="washington">
+        <label for="washington">Booker T. Washington</label>
+      </li>
+      <li>
+        <input id="carver" type="checkbox" name="historical-figures-1" disabled>
+        <label for="carver">George Washington Carver</label>
+      </li>
+    </ul>
+  </fieldset>
+
+<hr>
+
+  <fieldset>
+    <legend>Date Input</legend>
+    <span class="usa-form-hint" id="dobHint">For example: 04 28 1986</span>
+    <div class="usa-date-of-birth">
+      <div class="usa-form-group usa-form-group-month">
+        <label for="date_of_birth_1">Month</label>
+        <input class="usa-input-inline" aria-describedby="dobHint" class="usa-form-control" id="date_of_birth_1" name="date_of_birth_1" pattern="0?[1-9]|1[012]" type="number" min="1" max="12" value="">
+      </div>
+      <div class="usa-form-group usa-form-group-day">
+        <label for="date_of_birth_2">Day</label>
+        <input class="usa-input-inline" aria-describedby="dobHint" class="usa-form-control" id="date_of_birth_2" name="date_of_birth_2" pattern="0?[1-9]|1[0-9]|2[0-9]|3[01]" type="number" min="1" max="31" value="">
+      </div>
+      <div class="usa-form-group usa-form-group-year">
+        <label for="date_of_birth_3">Year</label>
+        <input class="usa-input-inline" aria-describedby="dobHint" class="usa-form-control" id="date_of_birth_3" name="date_of_birth_3" pattern="[0-9]{4}" type="number" min="1900" max="2000" value="">
+      </div>
+    </div>
+  </fieldset>
+
+<hr>
+
+  <fieldset class="usa-fieldset-inputs usa-sans">
+    <legend class="usa-sr-only">Radio Input</legend>
+    <ul class="usa-unstyled-list">
+      <li>
+        <input id="stanton" type="radio" checked name="historical-figures-2" value="stanton">
+        <label for="stanton">Elizabeth Cady Stanton</label>
+      </li>
+      <li>
+        <input id="anthony" type="radio" name="historical-figures-2" value="anthony">
+        <label for="anthony">Susan B. Anthony</label>
+      </li>
+      <li>
+        <input id="tubman" type="radio" name="historical-figures-2" value="tubman">
+        <label for="tubman">Harriet Tubman</label>
+      </li>
+    </ul>
+  </fieldset>
+
+<hr>
+  <fieldset class="usa-fieldset-inputs usa-sans">
+    <legend>Select Input</legend>
+    <label for="options">Dropdown Label</label>
+    <select name="options" id="options">
+      <option value="value1">Option A</option>
+      <option value="value2">Option B</option>
+      <option value="value3">Option C</option>
+    </select>
+  </fieldset>
+
+</form>
