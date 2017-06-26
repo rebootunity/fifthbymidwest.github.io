@@ -8,6 +8,13 @@ Experienced devs, please consider inviting a junior to pair with you as you work
 
 Contributors agree to the [Contributor Covent](http://contributor-covenant.org/) code of conduct guidelines.
 
+### Considerations
+
+All work should be done with the following considerations:
+
+- Security of Authentication and Access
+- Accessibility of Code and Design
+
 ## Contributing to Current Development
 
 Fork the repo, then clone into your environment.
