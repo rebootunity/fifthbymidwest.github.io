@@ -1,24 +1,9 @@
-# README
+# FIFTH BY MIDWEST
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+*Oh jeez.*
 
-Things you may want to cover:
+*Is this actually a thing now? Look for me hiding in the bedroom later.*
 
-* Ruby version
+So this is an open source project aimed at using technology to bring empathy and education to the internet.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+// typing...
