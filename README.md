@@ -1,35 +1,51 @@
 # FIFTH BY MIDWEST
 
-*Oh jeez.*
+*Interested in getting involved?* Check out the [CONTRIBUTING](CONTRIBUTING.md) doc and dive in to the [issues](https://github.com/fifthbymidwest/fifthbymidwest.github.io/issues)
 
-*Is this actually a thing now? Look for me hiding in the bedroom later.*
+We aim to reduce online conflict and raise citizen engagement by employing empathy, providing education, and refusing to give the internet to those who would corrupt her best features.
 
-So this is an open source project aimed at using technology to bring empathy and education to the internet. Basically, fix America with the internet that is hurting her now. 
+It will be challenging, but we have many resources. We have technology. We have psychology. We have data processing capabilities never before seen by humans. Let's use our tools and put them to good use.
 
-Wait, wait... politics and the internet? ... What I'm hearing a lot is, that's a bad idea.
+This is a project with a large scale and will need help from many people with diverse talents.
 
-In fact, everyone from President Obama to your mom tells you to get off the internet. "Go outside, talk to real people." Two problems with that advice, though: 
+[Read the tweetstorm](https://twitter.com/jannypie/status/826937808954806277)
 
-1. People online are real people
-2. Nobody is getting offline any time soon
+## The problem
 
-We literally have the internet in our kitchen appliances now. As a child of the early 80s can tell you, if "Get off the computer" didn't work when all we had was dial-up, it isn't gonna work ever, *especially* when it's everywhere around us. 
+- Hate groups and spread of misinformation online (intentional or not) have had an out-sized effect relative to representation in the population, up to affecting the outcome of the 2016 Presidential election, but also negatively impacting the experience of individuals online through harassment and fear
 
-So! Here we are on the internet. You know who else never got off the internet? The forum trolls. The 4channers. The Westboro Baptist Church which registered "godhatesfags.com" way back in 1997[1](https://whois.icann.org/en/lookup?name=godhatesfags.com). Literal Nazis. Some people have been arguing this same group of people online for two decades. We had flame wars. We had forum rules. **We had the banhammer.**
+- Internet was invented to connect people and research, and expanded to allow collaboration and sharing across the Earth
+  - Technology has advanced such that the collection, storage, and analysis of large amounts of data is more simple than ever
+  - This type of data analysis has been used by "Black Hat" sources (including political campaigns and foreign governments) to influence public opinion online, to gerrymander voting districts, and to suppress voting populations
 
-Once computers entered homes and internet loaded on cellphones, though, it got popular. Our grandmothers are on the internet. Our coworkers. People who always say, "I'm not a computer person." Innocents who didn't know what "Don't feel the trolls" meant and had no idea how to tell a suspicious website from the real thing. And that brings me to some other bad advice we perhaps shouldn't have taken: 
+- Technology and connectedness will continue to pervade our daily lives
+  - Traditional advice to "Get off the internet" ignores this reality
+  - People are unlikely to get offline any time soon
+  - Black Hat groups will not be getting offline any time soon either, and leaving the capabilities of the internet in their hands is not only unrealistic, but dangerous
 
-> Don't read the comments
-> Don't talk politics on your timelines
+![And they know it](../assets/images/IMG_9222.PNG)
 
-Because in those comment sections and 8chan and dark web, Lit'ral Nazis had been converting left and right. We didn't look. We didn't talk politics and lost our ability to do so with decency. Believe it or not, but debate used to be a respected activity. We lost our forum rules to private corporation Terms of Services. We lost our banhammers. Comments became flame wars. Doxxers could doxx and lulzers could kek.
+- We need tools and people to fight this
+  - Make discourse more productive based on principles of effective debate, persuasion, and empathy
+  - Connect with individuals and spread trusted information to those lacking education or who have been exposed to misinformation
 
-America was *so shocked* that there was that much prejudice and vitriol online.  
+## The approach
 
-Calling our representatives works
-Representatives work for us
-Town halls are a thing
-News is clickbait
-Big Data &You
+- Teach people how to communicate online with empathy
+- Teach people "internet smarts"
+- Create a centralized resource for reference materials (CMS)
+- Use technology tools to analyze and determine which approaches have greater success
+  - Sentiment analysis
+  - Alex suggestion tool
+- Use tech tools to connect people with voting tools and contact information for their representatives
 
-// typing...
+## The Needs
+
+- Core App that people can sign up for
+  - Automatically match users with representative information, local political action groups, voting schedule and issues
+  - Articles and other content publishing
+- Content Management System
+- Reference ID System
+- Social media integration
+- Content production
+- Graphics production
