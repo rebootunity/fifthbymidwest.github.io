@@ -8,6 +8,9 @@ It will be challenging, but we have many resources. We have technology. We have 
 
 This is a project with a large scale and will need help from many people with diverse talents.
 
+> ![Former President Barack Obama](app/assets/images/obama-speech.jpg)
+> Former President Barack Obama
+
 [Read the tweetstorm](https://twitter.com/jannypie/status/826937808954806277)
 
 ## The problem
