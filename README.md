@@ -8,8 +8,8 @@ It will be challenging, but we have many resources. We have technology. We have 
 
 This is a project with a large scale and will need help from many people with diverse talents.
 
-> ![Former President Barack Obama](app/assets/images/obama-speech.jpg)
-> President Barack Obama
+> "If we don’t stand up for tolerance and moderation and respect for others, if we begin to doubt ourselves and all that we have accomplished, then much of the progress that we have made will not continue."
+> President Barack Obama, Fourth Congress of the Indonesian Diaspora, Jakarta, July 1, 2017
 
 [Read the tweetstorm](https://twitter.com/jannypie/status/826937808954806277)
 
