@@ -26,7 +26,7 @@ This is a project with a large scale and will need help from many people with di
   - People are unlikely to get offline any time soon
   - Black Hat groups will not be getting offline any time soon either, and leaving the capabilities of the internet in their hands is not only unrealistic, but dangerous
 
-![And they know it](app/assets/images/shitposting.PNG)
+> ![And they know it](app/assets/images/shitposting.PNG)
 
 - We need tools and people to fight this
   - Make discourse more productive based on principles of effective debate, persuasion, and empathy
