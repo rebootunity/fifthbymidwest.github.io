@@ -8,6 +8,17 @@ Experienced devs, please consider inviting a junior to pair with you as you work
 
 Contributors agree to the [Contributor Covent](http://contributor-covenant.org/) code of conduct guidelines.
 
+### Getting set up locally
+
+1. Fork the repo and git clone to your machine
+1. `cd` into the repo folder
+1. `bundle install` dependencies
+1. `rails s` to start server
+1. Open localhost:3000 in your browser to see the welcome page
+1. Project details
+  - Ruby 2.2.2
+  - Rails 5.1.1
+
 ### Considerations
 
 All work should be done with the following considerations:
