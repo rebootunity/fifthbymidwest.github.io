@@ -1,10 +1,14 @@
 # FIFTH BY MIDWEST
 
+*Interested in getting involved?* Check out the [CONTRIBUTING](CONTRIBUTING.md) doc and dive in to the [issues](https://github.com/fifthbymidwest/fifthbymidwest.github.io/issues)
+
 We aim to reduce online conflict and raise citizen engagement by employing empathy, providing education, and refusing to give the internet to those who would corrupt her best features.
 
 It will be challenging, but we have many resources. We have technology. We have psychology. We have data processing capabilities never before seen by humans. Let's use our tools and put them to good use.
 
 This is a project with a large scale and will need help from many people with diverse talents.
+
+[Read the tweetstorm](https://twitter.com/jannypie/status/826937808954806277)
 
 ## The problem
 
@@ -19,14 +23,29 @@ This is a project with a large scale and will need help from many people with di
   - People are unlikely to get offline any time soon
   - Black Hat groups will not be getting offline any time soon either, and leaving the capabilities of the internet in their hands is not only unrealistic, but dangerous
 
-![And they know it](app/assets/images/IMG_9222.PNG)
+![And they know it](../assets/images/IMG_9222.PNG)
 
 - We need tools and people to fight this
   - Make discourse more productive based on principles of effective debate, persuasion, and empathy
-  - Spread trusted information to those lacking the education and exposure or who have been exposed to misinformation
+  - Connect with individuals and spread trusted information to those lacking education or who have been exposed to misinformation
 
 ## The approach
 
+- Teach people how to communicate online with empathy
+- Teach people "internet smarts"
+- Create a centralized resource for reference materials (CMS)
 - Use technology tools to analyze and determine which approaches have greater success
   - Sentiment analysis
   - Alex suggestion tool
+- Use tech tools to connect people with voting tools and contact information for their representatives
+
+## The Needs
+
+- Core App that people can sign up for
+  - Automatically match users with representative information, local political action groups, voting schedule and issues
+  - Articles and other content publishing
+- Content Management System
+- Reference ID System
+- Social media integration
+- Content production
+- Graphics production
