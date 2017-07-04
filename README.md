@@ -9,7 +9,7 @@ It will be challenging, but we have many resources. We have technology. We have 
 This is a project with a large scale and will need help from many people with diverse talents.
 
 > ![Former President Barack Obama](app/assets/images/obama-speech.jpg)
-> Former President Barack Obama
+> President Barack Obama
 
 [Read the tweetstorm](https://twitter.com/jannypie/status/826937808954806277)
 
@@ -26,7 +26,7 @@ This is a project with a large scale and will need help from many people with di
   - People are unlikely to get offline any time soon
   - Black Hat groups will not be getting offline any time soon either, and leaving the capabilities of the internet in their hands is not only unrealistic, but dangerous
 
-![And they know it](../assets/images/IMG_9222.PNG)
+![And they know it](app/assets/images/shitposting.PNG)
 
 - We need tools and people to fight this
   - Make discourse more productive based on principles of effective debate, persuasion, and empathy
