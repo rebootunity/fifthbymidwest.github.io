@@ -1,0 +1,16 @@
+!!!
+%html
+  %head
+    %title Fifth By Midwest
+    = csrf_meta_tags
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+  %body
+    %aside#tippytop.tippytop= yield :tippytop
+    %header#header.site-header
+      -# = yield :header
+      = render "shared/header"
+      %p.notice= notice
+      %p.alert= alert
+    %main= yield
+    %footer= yield :footer
