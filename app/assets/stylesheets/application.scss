@@ -16,3 +16,28 @@
 @import 'uswds_rails_overrides/core/defaults';
 @import 'uswds/all';
 @import 'uswds_rails_overrides/all';
+
+main, header, footer {
+  padding: 0px 20px;
+}
+
+.home_link {
+  text-decoration: none;
+  color: black;
+}
+
+
+.site-header {
+
+  ui.nav {
+    list-style: none;
+
+    li {
+      display: inline;
+
+      a {
+        padding: 5px 10px;
+      }
+    }
+  }
+}
