@@ -42,6 +42,8 @@ This is a project with a large scale and will need help from many people with di
   - Alex suggestion tool
 - Use tech tools to connect people with voting tools and contact information for their representatives
 
+Check out [these other software tools](https://github.com/fifthbymidwest/fifthbymidwest.github.io/wiki/Other-software-tools-that-could-potentially-be-a-good-fit-for-integration) people are building to help people better navigate the online world!
+
 ## The Needs
 
 - Core App that people can sign up for
