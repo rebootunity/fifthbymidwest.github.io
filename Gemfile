@@ -33,10 +33,7 @@ gem 'devise', '~> 4.3'
 gem 'rack', '~> 2.0.3'
 
 group :development, :test do
-  gem 'rspec'
-  # gem "rspec-rails", "~> 2.0"
-  # Update rspec-core to work with rake db
-  # gem 'rspec-core', '>= 3.4.4'
+  gem 'rspec-rails', '~> 3.5'
 
   gem "factory_girl_rails", "~> 4.0"
   gem "capybara"
