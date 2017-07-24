@@ -1,2 +1,19 @@
-%h1= link_to 'Fifth By Midwest', root_path, class: "home_link"
-= render "shared/navigation"
+%a.usa-skipnav{:href => "#main"} Skip to main content
+%header.usa-header.usa-header-basic{:role => "banner"}
+  .usa-nav-container
+    .usa-navbar
+      %button.usa-menu-btn Menu
+      #logo.usa-logo
+        %em.usa-logo-text
+          %a{:accesskey => "1", "aria-label" => "Home", :href => "#", :title => "Home"}
+            %h1= link_to 'Fifth By Midwest', root_path, class: "home_link"
+
+      = render "shared/navigation"
+
+      %form.usa-search.usa-search-small
+        %div{:role => "search"}
+          %label.usa-sr-only{:for => "search-field-small"} Search small
+          %input#search-field-small{:name => "search", :type => "search"}/
+          %button{:type => "submit"}
+            %span.usa-sr-only Search
+.usa-overlay
