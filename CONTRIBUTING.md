@@ -6,7 +6,7 @@ We need help of many types and from all levels!
 
 Experienced devs, please consider inviting a junior to pair with you as you work on these issues.
 
-Contributors must agree to the [Contributor Covent](http://contributor-covenant.org/) code of conduct guidelines.
+Contributors must agree to the [Contributor Covent](http://contributor-covenant.org/) code of conduct guidelines, which can also be [found here](https://github.com/fifthbymidwest/fifthbymidwest.github.io/blob/master/code_of_conduct.md) in the repo.
 
 ### Getting set up locally
 
