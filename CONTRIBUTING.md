@@ -1,14 +1,26 @@
 # Contributing
 
-We need help of many types and from all levels!
+Welcome! We need your help!
+
+This is the first time I, @jannypie, have organized an Open Source project & the scope is ambitious. Advice, corrections & feedback are *highly sought & appreciated.* Thank you!
+
+## All Skills Welcome
+
+We need help of many types and from all levels! In addition to the technical work, we also need graphics, authors (to write educational material, articles), researchers (collecting sources on topics, fact-checkers, following the money), etc, etc.
 
 *Beginners are welcome, including juniors.* Please keep this in mind and thoroughly document your work so that even starters can jump in.
 
-Experienced devs, please consider inviting a junior to pair with you as you work on these issues.
+**Juniors** if you are interested in helping on a topic, post a comment on the issue offering your help. Include what background knowledge you might have, so that experienced devs have an idea of a starting point. Some examples might be, "Have written controllers but need practice" or "No background but very interested in learning"
+
+**All contributors**, please consider inviting a junior to pair with you as you work on these issues. If a junior has expressed interest in your issue, please contact them and work out ways to collaborate.
+
+This is not meant to stall work, but rather to provide learning opportunities and create an inclusive project.
+
+## Code of Conduct
 
 Contributors must agree to the [Contributor Covent](http://contributor-covenant.org/) code of conduct guidelines.
 
-### Getting set up locally
+## Getting set up locally
 
 1. Fork the repo and git clone to your machine
 1. `cd` into the repo folder
