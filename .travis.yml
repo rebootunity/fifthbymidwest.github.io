@@ -1,8 +1,1 @@
 language: ruby
-rvm:
-  - 2.2.5
-
-script:
-  - bin/rake db:create RAILS_ENV=test
-  - bin/rake db:migrate RAILS_ENV=test
-  - bin/rake
