@@ -18,7 +18,7 @@ This is not meant to stall work, but rather to provide learning opportunities an
 
 ## Code of Conduct
 
-Contributors must agree to the [Contributor Covent](http://contributor-covenant.org/) code of conduct guidelines.
+Contributors must agree to the [Contributor Covent](http://contributor-covenant.org/) code of conduct guidelines, which can also be [found here](https://github.com/fifthbymidwest/fifthbymidwest.github.io/blob/master/code_of_conduct.md) in the repo.
 
 ## Getting set up locally
 
