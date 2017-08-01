@@ -41,3 +41,19 @@ main, header, footer {
     }
   }
 }
+
+.tippytop {
+  display: block;
+  background: #323a45;
+  .usa-nav-secondary-links {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .secondary-nav-link {
+    flex: 1 1;
+    text-align: center;
+    a {
+      color: white;
+    }
+  }
+}

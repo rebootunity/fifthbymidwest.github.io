@@ -1,49 +1,37 @@
-%ui.nav
-  - if user_signed_in?
-    %li.nav-link
-      = link_to 'Edit profile', edit_user_registration_path, :class => 'navbar-link'
-    %li.nav-link
-      = link_to "Logout", destroy_user_session_path, method: :delete, :class => 'navbar-link'
-  - else
-    %li.nav-link
-      = link_to "Sign up", new_user_registration_path, :class => 'navbar-link'
-    %li.nav-link
-      = link_to "Login", new_user_session_path, :class => 'navbar-link'
-
-      %nav.usa-nav{:role => "navigation"}
-        %button.usa-nav-close
-          %img{:alt => "close", :src => "/assets/img/close.svg"}/
-        %ul.usa-nav-primary.usa-accordion
-          %li
-            %button.usa-accordion-button.usa-nav-link{"aria-controls" => "side-nav-1", "aria-expanded" => "false"}
-              %span Section title
-            %ul#side-nav-1.usa-nav-submenu
-              %li
-                %a{:href => "#"} Subsection title
-              %li
-                %a{:href => "#"} Subsection title
-              %li
-                %a{:href => "#"} Subsection title
-          %li
-            %button.usa-accordion-button.usa-nav-link{"aria-controls" => "sidenav-2", "aria-expanded" => "false"}
-              %span Section title
-            %ul#sidenav-2.usa-nav-submenu
-              %li
-                %a{:href => "#"} Subsection title
-              %li
-                %a{:href => "#"} Subsection title
-              %li
-                %a{:href => "#"} Subsection title
-          %li
-            %a.usa-nav-link{:href => "#"}
-              %span Section title
-          %li
-            %button.usa-accordion-button.usa-nav-link{"aria-controls" => "sidenav-3", "aria-expanded" => "false"}
-              %span Section title
-            %ul#sidenav-3.usa-nav-submenu
-              %li
-                %a{:href => "#"} Subsection title
-              %li
-                %a{:href => "#"} Subsection title
-              %li
-                %a{:href => "#"} Subsection title
+%nav.usa-nav{:role => "navigation"}
+  %button.usa-nav-close
+    %img{:alt => "close", :src => "images/uswds-assets/images/minus-alt.svg"}
+  %ul.usa-nav-primary.usa-accordion
+    %li
+      %button.usa-accordion-button.usa-nav-link{"aria-controls" => "side-nav-1", "aria-expanded" => "false"}
+        %span Section title
+      %ul#side-nav-1.usa-nav-submenu
+        %li
+          %a{:href => "#"} Subsection title
+        %li
+          %a{:href => "#"} Subsection title
+        %li
+          %a{:href => "#"} Subsection title
+    %li
+      %button.usa-accordion-button.usa-nav-link{"aria-controls" => "sidenav-2", "aria-expanded" => "false"}
+        %span Section title
+      %ul#sidenav-2.usa-nav-submenu
+        %li
+          %a{:href => "#"} Subsection title
+        %li
+          %a{:href => "#"} Subsection title
+        %li
+          %a{:href => "#"} Subsection title
+    %li
+      %a.usa-nav-link{:href => "#"}
+        %span Section title
+    %li
+      %button.usa-accordion-button.usa-nav-link{"aria-controls" => "sidenav-3", "aria-expanded" => "false"}
+        %span Section title
+      %ul#sidenav-3.usa-nav-submenu
+        %li
+          %a{:href => "#"} Subsection title
+        %li
+          %a{:href => "#"} Subsection title
+        %li
+          %a{:href => "#"} Subsection title
