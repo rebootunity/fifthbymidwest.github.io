@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["Peter Karman", "Jessie A. Young"]
-  s.date = "2017-07-26"
+  s.date = "2017-08-01"
   s.description = "Integrate US Web Design Standards in Rails apps"
   s.email = ["peter.karman@gsa.gov", "jessica.young@gsa.gov"]
   s.files = ["CONTRIBUTING.md", "LICENSE.md", "README.md", "lib/tasks/uswds/rails_tasks.rake", "lib/uswds/rails.rb", "lib/uswds/rails/engine.rb", "lib/uswds/rails/version.rb", "spec/feature/", "spec/test_app/", "spec/test_app/app/", "spec/test_app/app/assets/", "spec/test_app/app/assets/stylesheets/", "spec/test_app/app/controllers/", "spec/test_app/app/views/", "spec/test_app/app/views/layouts/", "spec/test_app/app/views/pages/", "spec/test_app/config/", "spec/test_app/config/environments/", "spec/test_app/config/initializers/", "spec/test_app/config/locales/"]

@@ -1,5 +1,11 @@
-%header.usa-header.usa-header-basic{:role => "banner"}
-  #logo.usa-logo
-    %em.usa-logo-text
-      %a{:accesskey => "1", "aria-label" => "Home", :href => "#", :title => "Home"}
-        %h1= link_to 'Fifth By Midwest', root_path, class: "home_link"
+.logo-image.usa-logo
+  %em.usa-logo-image
+    %a.logo{:accesskey => "1", "aria-label" => "Home", :href => "#", :title => "Home"}
+      %img{:alt => "Fifth By Midwest", :src => asset_url("logo-fullX-100px.png")}/
+.logo-text.usa-logo
+  %em.usa-logo-text
+    %h1.home_link
+      = link_to root_path do
+        %span.primary-blue Fifth
+        %span.white by
+        %span.primary-red Midwest

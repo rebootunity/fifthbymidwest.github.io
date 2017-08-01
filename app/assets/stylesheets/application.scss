@@ -17,28 +17,53 @@
 @import 'uswds/all';
 @import 'uswds_rails_overrides/all';
 
-main, header, footer {
+$primary-blue: #02bfe7;
+$primary-red: #e31c3d;
+
+.primary-red {
+  color: $primary-red;
+}
+.primary-blue {
+  color: $primary-blue;
+}
+.white {
+  color: white;
+}
+
+main {
   padding: 0px 20px;
 }
 
 .home_link {
-  text-decoration: none;
-  color: black;
+  font-family: "Source Sans", sans-serif;
+  text-transform: uppercase;
+  line-height: 5rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
+  font-size: 3rem;
+  .primary-blue {
+    font-size: 7rem;
+  }
+  .primary-red {
+    display: block;
+    font-size: 7rem;
+    line-height: 4rem;
+  }
 }
 
 
 .site-header {
+  background: #112e51;
+  display: flex;
+  flex-flow: row nowrap;
+}
 
-  ui.nav {
-    list-style: none;
-
-    li {
-      display: inline;
-
-      a {
-        padding: 5px 10px;
-      }
-    }
+// an anchor tag wrapping the image
+.logo-image {
+  flex: 0 1 auto;
+  margin-left: -2rem;
+  img {
+    display: block;
   }
 }
 
@@ -56,4 +81,7 @@ main, header, footer {
       color: white;
     }
   }
+
+.logo-text {
+  flex: 0 1 auto;
 }

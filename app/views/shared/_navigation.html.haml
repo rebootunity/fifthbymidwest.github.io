@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 %nav.usa-nav{:role => "navigation"}
   %button.usa-nav-close
     %img{:alt => "close", :src => "images/uswds-assets/images/minus-alt.svg"}
@@ -35,3 +36,24 @@
           %a{:href => "#"} Subsection title
         %li
           %a{:href => "#"} Subsection title
+=======
+%button.usa-menu-btn Menu
+.usa-nav-container
+  .usa-navbar
+    %nav.usa-nav{:role => "navigation"}
+      .usa-nav-inner
+        %button.usa-nav-close
+          %img{:alt => "close", :src => "/assets/img/close.svg"}/
+        .nav-secondary
+          %ul.nav.usa-unstyled-list.nav-secondary-links
+            - if user_signed_in?
+              %li.nav-link
+                = link_to 'Edit profile', edit_user_registration_path, :class => 'navbar-link'
+              %li.nav-link
+                = link_to "Logout", destroy_user_session_path, method: :delete, :class => 'navbar-link'
+            - else
+              %li.nav-link
+                = link_to "Sign up", new_user_registration_path, :class => 'navbar-link'
+              %li.nav-link
+                = link_to "Login", new_user_session_path, :class => 'navbar-link'
+>>>>>>> Stashed changes
