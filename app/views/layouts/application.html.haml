@@ -6,11 +6,16 @@
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
   %body
-    %aside#tippytop.tippytop= yield :tippytop
-    %header#header.site-header
+
+    %aside#tippytop.tippytop
+      = render "shared/tippytop"
+
+    %header.usa-header.usa-header-extended.site-header{:role => "banner"}
+
       -# = yield :header
       = render "shared/header"
       %p.notice= notice
       %p.alert= alert
-    %main= yield
+    %main#main= yield
     %footer= yield :footer
+    = javascript_include_tag 'lib/uswds.min.js', 'data-turbolinks-track': 'reload'
