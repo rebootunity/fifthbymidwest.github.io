@@ -19,6 +19,7 @@
 
 $base: #112e51;
 $primary-blue: #02bfe7;
+$primary-blue-lightest: #e1f3f8;
 $primary-red: #e31c3d;
 $page-padding: 1em; // padding from edge of viewport
 
@@ -44,6 +45,12 @@ main {
 }
 .white {
   color: white;
+}
+.alert {
+  background-color: $primary-blue-lightest;
+  font-weight: 700;
+  margin: $page-padding;
+  padding: $page-padding;
 }
 
 .tippytop {
