@@ -17,16 +17,25 @@
 @import 'uswds/all';
 @import 'uswds_rails_overrides/all';
 
+$base: #112e51;
+$primary-blue: #02bfe7;
+$primary-red: #e31c3d;
+$page-padding: 1em; // padding from edge of viewport
+
+// base
 html {
   box-sizing: border-box;
 }
 *, *:after, *:before {
   box-sizing: inherit;
 }
-
-$primary-blue: #02bfe7;
-$primary-red: #e31c3d;
-
+body {
+  color: $base;
+}
+main {
+  padding: 0 $page-padding;
+}
+// utils
 .primary-red {
   color: $primary-red;
 }
@@ -37,27 +46,23 @@ $primary-red: #e31c3d;
   color: white;
 }
 
-main {
-  padding: 0px 20px;
-}
-
 .tippytop {
   display: block;
   background: #046b99;
-  .usa-nav-secondary-links {
-    display: flex;
-    justify-content: flex-end;
-  }
-  .secondary-nav-link {
-    flex: 1 1;
-    border-left: 1px solid #112e51;
-    a {
-      display: block;
-      color: white;
-      text-align: center;
-      padding: 5px 10px;
-      text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.8);
-    }
+}
+.usa-nav-secondary-links {
+  display: flex;
+  justify-content: flex-end;
+}
+.secondary-nav-link {
+  flex: 1 1;
+  border-left: 1px solid $base;
+  a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.8);
   }
 }
 
@@ -79,19 +84,14 @@ main {
   text-transform: uppercase;
   text-shadow: 0px 0px 4px rgba(0, 0, 0, 1);
 }
-@media (min-width: 600px) {
-  .home_link {
-    line-height: 5rem;
-    margin-bottom: 0.5rem;
-    .primary-blue {
-      font-size: 7rem;
-    }
-    .primary-red {
-      display: block;
-      font-size: 7rem;
-      line-height: 4rem;
-    }
-  }
+
+// override uswds
+.usa-logo {
+  float: none;
+  line-height: 4rem;
+  margin-left: 0;
+  text-align: center;
+  width: 100%;
 }
 
 // an anchor tag wrapping the image
@@ -107,11 +107,52 @@ main {
   border-top: 4px solid white;
   border-bottom: 4px solid white;
   overflow: visible;
+  padding-left: $page-padding;
+
+  background-image: asset-url('logo.svg');
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
 }
-.usa-logo {
-  float: none;
-  line-height: 4rem;
-  margin-left: 0;
-  text-align: center;
-  width: 100%;
+
+@media (min-width: 600px) {
+  .usa-logo.logo-text {
+    margin: 0;
+    padding: 1em;
+    padding-left: 10em; // clear logo image
+    text-align: left;
+  }
+  .home_link {
+    line-height: 5rem;
+    margin-bottom: 0.5rem;
+    .primary-blue {
+      font-size: 7rem;
+    }
+    .primary-red {
+      display: block;
+      font-size: 7rem;
+      line-height: 4rem;
+    }
+  }
+  .tippytop {
+    background: white;
+    text-align: right;
+  }
+  .usa-nav-secondary-links {
+    display: block;
+    width: 100%;
+    li {
+      display: inline-block;
+      min-width: 9rem;
+      padding: 0;
+    }
+    li:not(:last-child)::after {
+      content: '';
+      display: none;
+    }
+  }
+  .secondary-nav-link a {
+    color: $base;
+    text-shadow: none;
+  }
 }
