@@ -8,15 +8,12 @@
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
   %body
 
-    %aside#tippytop.tippytop
-      = render "shared/tippytop"
-
     %header.usa-header.usa-header-extended.site-header{:role => "banner"}
+      %div#tippytop.tippytop
+        = render "shared/tippytop"
 
       -# = yield :header
       = render "shared/header"
-      -# %p.notice= notice
-      -# %p.alert= alert
 
     %main#main= yield
 

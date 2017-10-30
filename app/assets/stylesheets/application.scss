@@ -13,15 +13,33 @@
  *= require_tree .
  *= require_self
  */
+ // VARIABLES
 @import 'uswds_rails_overrides/core/defaults';
 @import 'uswds/all';
 @import 'uswds_rails_overrides/all';
+$font-path: '../../../../fonts';
 
 $base: #112e51;
 $primary-blue: #02bfe7;
 $primary-blue-lightest: #e1f3f8;
+$primary-blue-darkest: #112e51;
 $primary-red: #e31c3d;
 $page-padding: 1em; // padding from edge of viewport
+
+// media queries
+$above_tablet_size: "min-width: 768px";
+$above_smartphone_size: "min-width: 412px";
+$above_cellphone_size: "min-width: 320px";
+@media only screen and ($above_cellphone_size) {
+
+}
+@media only screen and ($above_smartphone_size) {
+
+}
+@media only screen and ($above_tablet_size) {
+
+}
+
 
 // base
 html {
@@ -34,7 +52,7 @@ body {
   color: $base;
 }
 main {
-  padding: 0 $page-padding;
+  padding: 0;
 }
 // utils
 .primary-red {
@@ -42,6 +60,9 @@ main {
 }
 .primary-blue {
   color: $primary-blue;
+}
+.primary-blue-darkest {
+  color: $primary-blue-darkest;
 }
 .white {
   color: white;
@@ -55,98 +76,62 @@ main {
 
 .tippytop {
   display: block;
-  background: #046b99;
+}
+.secondary-nav {
+    // display: none;
 }
 .usa-nav-secondary-links {
   display: flex;
   justify-content: flex-end;
 }
+
 .secondary-nav-link {
-  flex: 1 1;
-  border-left: 1px solid $base;
+  color: $primary-blue-lightest;
+  flex: 1 50%;
+  text-align: center;
   a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 5px 10px;
-    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.8);
+    color: inherit;
   }
 }
-
-.site-header {
-  // background: #112e51;
-  background: #1e4370; // this color isn't uswds kosher
-  -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
-  box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
-  display: flex;
-  flex-flow: row nowrap;
-}
-
 .home_link {
-  font-family: "Source Sans", sans-serif;
+  color: $base;
+  font-family: $font-sans;
   font-size: 3rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin: 0;
   text-transform: uppercase;
-  text-shadow: 0px 0px 4px rgba(0, 0, 0, 1);
 }
 
 // override uswds
 .usa-logo {
-  float: none;
-  line-height: 4rem;
-  margin-left: 0;
-  text-align: center;
-  width: 100%;
-}
-
-// an anchor tag wrapping the image
-.logo-image {
-  display: none;
-  flex: 0 1 auto;
-  margin-left: -2rem;
-  img {
-    display: block;
-  }
-}
-.logo-text {
-  border-top: 4px solid white;
-  border-bottom: 4px solid white;
-  overflow: visible;
-  padding-left: $page-padding;
-
+  background-color: white;
   background-image: asset-url('logo.svg');
   background-position: left center;
   background-repeat: no-repeat;
   background-size: auto 100%;
+  float: none;
+  margin-left: 0;
+  text-align: left;
+  width: 100%;
+}
+
+.logo-text {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  height: 100%;
+  width: 100%;
 }
 
 @media (min-width: 600px) {
+
   .usa-logo.logo-text {
     margin: 0;
-    padding: 1em;
-    padding-left: 10em; // clear logo image
     text-align: left;
   }
   .home_link {
-    line-height: 5rem;
-    margin-bottom: 0.5rem;
-    .primary-blue {
-      font-size: 7rem;
-    }
-    .primary-red {
-      display: block;
-      font-size: 7rem;
-      line-height: 4rem;
-    }
-  }
-  .tippytop {
-    background: white;
-    text-align: right;
-  }
-  .usa-nav-secondary-links {
     display: block;
+  }
+
+  .usa-nav-secondary-links {
     width: 100%;
     li {
       display: inline-block;
@@ -162,4 +147,22 @@ main {
     color: $base;
     text-shadow: none;
   }
+}
+
+.section {
+  margin: 0 auto;
+  padding: $page-padding;
+}
+
+.intro {
+  color: white;
+}
+.intro-img {
+  width: 100%;
+}
+
+
+// styles
+.secondary-nav {
+  background: $primary-blue-darkest;
 }
