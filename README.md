@@ -1,4 +1,6 @@
-# FIFTH BY MIDWEST
+# REBOOT UNITY
+
+## Hey, we're changing the name! FIFTH BY MIDWEST has become Reboot Unity to better convey the goals and online nature of the project!
 
 *Interested in getting involved?* Check out the [CONTRIBUTING](CONTRIBUTING.md) doc and dive in to the [issues](https://github.com/fifthbymidwest/fifthbymidwest.github.io/issues)
 
