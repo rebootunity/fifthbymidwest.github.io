@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :articles
   devise_for :users
   # resources :users
   resources :sessions, only: [:new, :create, :destroy]
